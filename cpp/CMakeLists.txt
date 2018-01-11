@@ -1,7 +1,6 @@
 cmake_minimum_required (VERSION 3.9)
 project (bankers)
 set (CMAKE_CXX_STANDARD 14)
-find_package(Boost 1.65 REQUIRED COMPONENTS system program_options serialization iostreams)
 
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
